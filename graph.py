@@ -102,8 +102,8 @@ def learn(path, dictionary):
     for i in range(size):
         word = address_map[index[i]];
         ## elimitate stop words.
-        if word in stop_words:
-            continue
+        #if word in stop_words:
+            #continue
         print(word)
         c = c + 1
         if c == top:
